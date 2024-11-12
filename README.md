@@ -14,15 +14,15 @@ Download or copy the script to your space.
 
 Run the command below to compile the script. Needs only basic gcc libraries:
 
-**g++ -std=c++17 -o output_name_of_file input_name_of_script.cpp -pthread**
+**g++ -std=c++17 -o output_name_of_file   input_name_of_script.cpp   -pthread**
 
 Then you can run the compiled binary with the command below:
 
-**./output_name_of_file tab_file.txt read1.fastq read2.fastq output_dir threads(int)**
+**./output_name_of_file   tab_file.txt   read1.fastq   read2.fastq   output_dir   threads(int)**
 
 Example:
 
-./your_compiled_binary path_to_your_tab_file.txt path_to_your_read1.fastq path_to_your_read2.fastq path_to_your_output_directory 50
+./your_compiled_binary   path_to_your_tab_file.txt   path_to_your_read1.fastq   path_to_your_read2.fastq   path_to_your_output_directory   50
 
 ### Requirements
 
