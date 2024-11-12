@@ -22,7 +22,7 @@ Then you can run the compiled binary with the command below:
 
 Example:
 
-./extract_reads path_to_your_tab_file.txt path_to_your_read1.fastq path_to_your_read2.fastq path_to_your_output_directory 50
+./your_compiled_binary path_to_your_tab_file.txt path_to_your_read1.fastq path_to_your_read2.fastq path_to_your_output_directory 50
 
 ### Requirements
 
